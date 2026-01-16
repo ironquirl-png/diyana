@@ -1,0 +1,110 @@
+{
+  "total_tests": 17,
+  "passed_tests": 16,
+  "failed_tests": 1,
+  "success_rate": 94.11764705882352,
+  "test_details": [
+    {
+      "test": "Health Check",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:38:15.725384"
+    },
+    {
+      "test": "User Signup",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:38:16.011377"
+    },
+    {
+      "test": "Create User for Login Test",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:38:16.272889"
+    },
+    {
+      "test": "User Login",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:38:16.534062"
+    },
+    {
+      "test": "Get Current User",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:38:16.577046"
+    },
+    {
+      "test": "Text Generation (blog)",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:38:33.054248"
+    },
+    {
+      "test": "Text Generation (article)",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:38:51.956141"
+    },
+    {
+      "test": "Text Generation (social)",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:38:54.751420"
+    },
+    {
+      "test": "Image Generation",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:39:04.606695"
+    },
+    {
+      "test": "Get All Contents",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:39:04.686778"
+    },
+    {
+      "test": "Get Text Contents",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:39:04.728340"
+    },
+    {
+      "test": "Get Image Contents",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:39:04.780137"
+    },
+    {
+      "test": "Get Specific Content (39c9a73d...)",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:39:04.833341"
+    },
+    {
+      "test": "Generate Content for Deletion Test",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:39:08.455341"
+    },
+    {
+      "test": "Delete Content (46532fcc...)",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:39:08.493500"
+    },
+    {
+      "test": "Invalid Login (should fail)",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-16T08:39:08.528186"
+    },
+    {
+      "test": "Protected Endpoint Without Token (should fail)",
+      "success": false,
+      "details": "Expected 401, got 403 - {'detail': 'Not authenticated'}",
+      "timestamp": "2026-01-16T08:39:08.563316"
+    }
+  ]
+}
